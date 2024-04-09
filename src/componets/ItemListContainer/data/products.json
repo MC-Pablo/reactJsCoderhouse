@@ -1,7 +1,7 @@
 [
 {
 "name": "Cafetera francesa",
-"id": "1",
+"id": 1,
 "category": "cafeteras",
 "description": "xxxx",
 "img": "https://images.unsplash.com/photo-1511001148140-09c2b155f57c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -9,14 +9,14 @@
 },
 {
 "name": "Café",
-"id": "2",
+"id": 2,
 "category": "café en grano",
 "description": "xxxx",
 "img": "https://images.unsplash.com/photo-1585146205802-0a24b48fa5ce?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 },
 {
     "name": "Molino de café",
-"id": "3",
+"id": 3,
 "category": "accesorios",
 "description": "xxxx",
 "img": "https://images.unsplash.com/photo-1573066516618-70e8e69506e7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

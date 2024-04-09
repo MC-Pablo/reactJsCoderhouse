@@ -1,21 +1,19 @@
-
 import data from "./data/products.json";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
 export const ItemDetailContainer = ({ greetings, welcome }) => {
   const [product, setProduct] = useState(null);
-  const {id} = useParams();
+  const { id } = useParams();
   useEffect(() => {
     const promise2 = new Promise((resolve, reject) => {
-      
       setTimeout(() => resolve(data), 2000);
     });
     promise2.then((data) => {
-      const filter = data
-      setProduct(data[0]);
+      const filter = data.find((p) => p.id === Number (id));
+      setProduct(filter);
     });
-  }, []);
+  }, [id]);
 
   if (!product) return <div>LOADING</div>;
 
@@ -30,5 +28,3 @@ export const ItemDetailContainer = ({ greetings, welcome }) => {
     </div>
   );
 };
-
-
