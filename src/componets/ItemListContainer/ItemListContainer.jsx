@@ -22,7 +22,7 @@ const ItemListContainer = ({ greetings, welcome }) => {
         }
       
     });
-  }, []);
+  }, [id]);
 
   return (
     <div>
