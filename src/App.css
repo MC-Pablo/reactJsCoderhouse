@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  background-color: blanchedalmond;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  background-color: blanchedalmond;
+}
+
+.cards {
+  display: flex;
+  width: 60%;
+  gap: 100px;
+  align-items: center;
+  margin: 0 auto;
+  background-color: blanchedalmond;
+
+  img {
+    width: 286px;
+    height: 180px;
+    object-fit: cover;
+  }
+  .card-body {
+    background-color: lightgray;
+  }
+}
