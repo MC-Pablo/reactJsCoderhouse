@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { useHref } from 'react-router-dom';
 
-import { initializeApp } from "firebase/app";
+import {initializeApp} from "firebase/app";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBc9a4eN9dfXp3c35vNYZOjlu8LxyPNvC0",
