@@ -1,5 +1,4 @@
 import "./ItemListContainer.css";
-import data from "./data/products.json";
 import { ItemList } from "./ItemList";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
@@ -10,9 +9,15 @@ const ItemListContainer = ({ greetings, welcome }) => {
   const {id} = useParams();
   useEffect(() => {
     const db = getFirestore();
+    let refCollection;
 
-    const refCollection = collection(db, "items");
-
+    if (!id) { 
+      refCollection = collection(db, "items");
+    } else { refCollection = query (
+      collection (db, "items"),
+      where ("categoryid", "==", id)
+    );
+    }
     getDocs(refCollection).then((snapshot) => {
         setProducts(
           snapshot.docs.map((doc) => {

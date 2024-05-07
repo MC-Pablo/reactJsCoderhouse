@@ -5,7 +5,8 @@ import { Link } from "react-router-dom";
 export const Item = ({ product }) => (
   <div>
     <Card style={{ width: "18rem" }}>
-      <Card.Img variant="top" src={product.img} />
+      <Card.Img variant="top" src={product.imageId
+      } />
       <Card.Body>
         <Card.Title>{product.name}</Card.Title>
         <Card.Text>{product.description}</Card.Text>

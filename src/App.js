@@ -5,11 +5,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ItemDetailContainer } from "./componets/ItemListContainer/ItemDetailContainer";
+import { Provider } from "./componets/Context/CartContext";
+
 
 
 
 function App() {
   return (
+    <Provider>
     <BrowserRouter>
     <div className="App">
       <NavBar />
@@ -20,6 +23,7 @@ function App() {
       </Routes>
     </div>
     </BrowserRouter>
+    </Provider>
   );
 }
 
