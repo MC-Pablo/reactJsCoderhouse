@@ -17,8 +17,8 @@ export const  ItemDetail = ({product}) =>{
       <div>
       <h1>{product.name}</h1>
       <div>
-  
         <img src={product.imageId} alt={product.name} />
+        <p>{product.description}</p>
         <div>{`Stock ${product.stock}`}</div>
         <div>{`Precio ${product.price}`}</div>
       </div>
