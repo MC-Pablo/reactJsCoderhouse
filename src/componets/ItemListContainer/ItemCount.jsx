@@ -14,7 +14,7 @@ export const ItemCount = ({ onAdd, stock }) => {
   const handleAdd = () => {
     onAdd (quantity);
     setQuantity(1)
-  }
+  }; 
 
   return (
     <div>

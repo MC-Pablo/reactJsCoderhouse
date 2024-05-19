@@ -7,7 +7,7 @@ export const Provider = ({ children }) => {
     const [items, setItems] = useState([]);
     const clear = () => setItems([]);
     const removeItem = (id) => {
-        const filtered = items.filtered((item) => item.id !== id);
+        const filtered = items.filter((item) => item.id !== id);
         setItems(filtered);
     };
 

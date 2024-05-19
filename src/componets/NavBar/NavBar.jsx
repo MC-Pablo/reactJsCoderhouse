@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 export const NavBar = () => (
   <Navbar expand="lg" className="bg-body-tertiary">
     <Container>
-      <Navbar.Brand href="http://localhost:3000/">Primero...el café</Navbar.Brand>
+      <Nav.Link to="/main" as={NavLink}> Primero...el café </Nav.Link>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
