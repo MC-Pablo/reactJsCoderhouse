@@ -31,7 +31,6 @@ export const Provider = ({ children }) => {
         };
     };
 
-    console.log(items);
     return (
         <CartContext.Provider value={{addItem, clear, items, removeItem}}>
             {children}
