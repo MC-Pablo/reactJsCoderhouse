@@ -22,6 +22,8 @@ export const ItemDetailContainer = () => {
   if (!product) return <div>LOADING</div>;
 
   return (
+    <div>
     <ItemDetail product={product}/>
+    </div>
   );
 };

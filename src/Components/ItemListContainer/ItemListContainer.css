@@ -1,0 +1,15 @@
+p {
+    line-height: 2.5rem;
+    margin-bottom: 5%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+img {
+    width: 30%;
+}
+
+body{
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/ivimontetattoo.appspot.com/o/bgImg%2FIMG-20240414-WA0009.jpg?alt=media&token=e725b8e1-0b37-476f-b5b2-cd90cfa99677);
+}
+

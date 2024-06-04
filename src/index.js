@@ -3,20 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { useHref } from 'react-router-dom';
-
 import {initializeApp} from "firebase/app";
+import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBc9a4eN9dfXp3c35vNYZOjlu8LxyPNvC0",
-  authDomain: "ecommerce-reactjs-6e185.firebaseapp.com",
-  projectId: "ecommerce-reactjs-6e185",
-  storageBucket: "ecommerce-reactjs-6e185.appspot.com",
-  messagingSenderId: "74615964644",
-  appId: "1:74615964644:web:760d8ba0653b582c3b3df1"
+  apiKey: "AIzaSyAIVHnDH1Jo0y8tGoN78K-AeRyiJQX9E7k",
+  authDomain: "ivimontetattoo-5d059.firebaseapp.com",
+  projectId: "ivimontetattoo-5d059",
+  storageBucket: "ivimontetattoo-5d059.appspot.com",
+  messagingSenderId: "197202730518",
+  appId: "1:197202730518:web:6ba7f0aeefbe0891c91f37"
 };
 
 initializeApp(firebaseConfig);
+export const dataBase= getFirestore (App)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

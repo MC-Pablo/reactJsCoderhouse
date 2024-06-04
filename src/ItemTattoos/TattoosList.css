@@ -1,0 +1,13 @@
+.containerRanderizedItemsTattoos {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding-block: 2rem;
+    justify-content: center;
+    align-items: center;
+    font-family: "Pathway Gothic One", sans-serif;
+    
+   
+}
+

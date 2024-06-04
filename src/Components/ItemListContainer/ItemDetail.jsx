@@ -10,7 +10,7 @@ export const ItemDetail = ({ product }) => {
 
   const add = (quantity) => {
     addItem(product, quantity);
-    console.log(addItem);
+    
   };
   return (
     <Container>
@@ -23,7 +23,27 @@ export const ItemDetail = ({ product }) => {
           <div>{`Precio ${product.price}`}</div>
         </div>
       </div>
-      <ItemCount stock={product.stock} onAdd={add} />
+      <ItemCount/>
     </Container>
   );
 };
+
+
+/* <div class="container">
+    
+      <div class="card">
+        <img
+          src={product.imageId}
+          alt="Person"
+          class="card__image"
+        />
+        <p class="card__name">{product.name}</p>
+        <div class="grid-container">
+          <div class="grid-child-posts">{product.description}</div>
+        </div>
+        <Link to={`/item/${product.id}`}>
+        <button class="btn draw-border">Ver detalles</button>
+        </Link>
+        </div>
+      
+    </div> */

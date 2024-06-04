@@ -1,0 +1,43 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  width: 100%;
+  max-width: 100%;
+  gap: 10px;
+ 
+.navBrand {
+  h1{
+  font-family: "Pathway Gothic One", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 2rem;
+  margin-left: 20px;
+  
+}
+}
+
+.navLink {
+  font-family: "Pathway Gothic One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: whitesmoke;
+
+}
+
+.navDrop {
+  font-family: "Pathway Gothic One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+.navbarCollapse {
+  
+  justify-content: end;
+  max-width: 100%;
+  width: 100%;
+
+}
+}
