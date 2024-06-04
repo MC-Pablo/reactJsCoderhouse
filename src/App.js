@@ -11,7 +11,6 @@ import { MainPage } from "./Components/MainPage";
 import TattoosListContainer from "./ItemTattoos/TattoosListContainer";
 
 
-
 function App() {
   return (
     <Provider>
